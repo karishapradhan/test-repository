@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOREGROUND-BACKGROUND</title>
+    <!-- z-index=-9 le fwd bck 9 choti milauxa -->
+    <!-- { paddin,margin :0px; rakhda halka padding auto matically sabaima lagxa(universal padding)} -->
+    <!-- dom document object model -html source code lai browser ma convert garne is DOM VIMPPP hide garna sajilo hunxa -->
+   <!-- overflow ko 4 wota properties ma auto is better -->
+   <!-- position static(default)= garda and right,left,botton,top,zindex valid GARDAINAA -->
+   <!-- do sticky wala position -->
+
+   <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .sibling-element{
+            background-color: aquamarine;
+            padding: 10px;
+        }
+        .main-element{
+            position:;
+            left: 10px;
+            bottom: 30px;
+            background-color: rgb(226, 235, 111);
+            padding: 10px;
+            
+        
+        }
+    </style>
+
+
+</head>
+<body>
+<div>
+    <div class="sibling-element">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione labore! Est et
+ aperiam eligendi ea totam error, dolore quis at. Natus commodi illo eligendi ad iure totam ducimus reiciendis.
+</div>
+
+    <div class="main-element">
+        IM ONE SIBLING
+</div>
+    <div class="sibling-element"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt, a suscipit blanditiis quod reiciendis deserun
+        t molestiae modi maxime ut! Veniam cumque atque molestias voluptas temporibus, itaque vel adipisci mollitia!</div>
+    </div>
+</div>
+    
+</body>
+</html>
